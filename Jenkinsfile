@@ -8,7 +8,7 @@ pipeline{
 	stage('Checkout')
 	{
 		steps{
-			git(url:'https://github.com/Lab_Test',branch:'main')
+			git(url:'https://github.com/joshua-mnz/Lab_Test',branch:'main')
 		}
 	}
 	stage('Build Docker')
