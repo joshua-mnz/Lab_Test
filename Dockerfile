@@ -1,4 +1,4 @@
-FROM python:
+FROM python:3.13-trixie
 WORKDIR app/
 COPY requirement.txt .
 RUN pip install --no-cache-dir -r requirement.txt
