@@ -15,7 +15,7 @@ pipeline{
 	{
 		steps{
 		script{
-			docker_Image=doker.build("${IMAGE_NAME}:latest")
+			docker_Image=docker.build("${IMAGE_NAME}:latest")
 		}
 	}
 	}
